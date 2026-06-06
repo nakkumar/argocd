@@ -36,6 +36,7 @@ spec:
   - name: http
     port:  90
     targetPort: 8080
+    nodePort: 30500
     protocol: TCP
   selector:
     app: react-app1
